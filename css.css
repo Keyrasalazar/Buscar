@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+h1
+{
+	color: white;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: "georgia", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+body
+{
+
+background-image: url(12.jpg);
+background-attachment: fixed;
+background-position: center bottom;
+background-attachment: fixed;
+}
+
+input
+{
+	height:20px;
+	padding:5px 15px;
+	width:220px; 
+
+
+	border:2px black;
+	box-shadow:0 0 5px #ccc, 0 10px 15px #eee inset;
+	border-radius:8px;
+	padding-right:20px;
+	transition: padding .50s;
+}
+
+input:focus
+{
+padding-right:90px;
+background: #fff;
+box-shadow: 0 0 50px #d45252;
+border-color: #b03535;
+}
+
+
+#head
+{
+	font-size: 60px;
+	color: white;
+}
+
+#ficha
+{
+	margin-left:430px; 
+	margin-top: 30px; 
+	border:10px solid white;
+	padding:10px; 
+	text-align: center;
+}
+#ficha tr
+{
+	background:white;
+}
+#ficha td 
+{
+	padding:10px;
+}
+
+
